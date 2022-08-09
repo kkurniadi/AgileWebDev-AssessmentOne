@@ -14,11 +14,23 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
-                <div class="navbar-nav">
-                    <a href="index.html" class="nav-item nav-link">Home</a>
-                    <a href="definitions.html" class="nav-item nav-link">Definitions</a>
-                    <a href="#" class="nav-item nav-link active">Contact</a>
-                </div>
+                <ul class="navbar-nav">
+					<li class="nav-item">
+						<a href="index.html" class="nav-link">Home</a>
+					</li>
+                    <li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Definitions</a>
+						<ul class="dropdown-menu">
+							<li><a href="definitions.html" class="dropdown-item">Group One</a></li>
+							<li><a href="#" class="dropdown-item">Group Two</a></li>
+							<li><a href="#" class="dropdown-item">Group Three</a><li>
+							<li><a href="#" class="dropdown-item">Group Four</a></li>
+						</ul>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link active">Contact</a>
+					</li>
+                </ul>
             </div>
         </div>
     </nav>
